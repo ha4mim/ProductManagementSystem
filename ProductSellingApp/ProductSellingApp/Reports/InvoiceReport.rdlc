@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition"
+        xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner"
+        xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily"
+        xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
+    <am:AuthoringMetadata>
+        <am:CreatedBy>
+            <am:Name>MSRB</am:Name>
+            <am:Version>15.0.20283.0</am:Version>
+        </am:CreatedBy>
+        <am:UpdatedBy>
+            <am:Name>MSRB</am:Name>
+            <am:Version>15.0.20283.0</am:Version>
+        </am:UpdatedBy>
+        <am:LastModifiedTimestamp>2024-09-04T08:02:29.7436273Z</am:LastModifiedTimestamp>
+    </am:AuthoringMetadata>
+    <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+    <AutoRefresh>0</AutoRefresh>
+    <DataSources>
+        <DataSource Name="DataSource1">
+            <rd:SecurityType>None</rd:SecurityType>
+            <rd:DataSourceID>9af6513b-2c23-4ad1-88a2-3235ffb0472e</rd:DataSourceID>
+        </DataSource>
+    </DataSources>
+    <DataSets>
+        <DataSet Name="DataSet1">
+            <DataSourceName>DataSource1</DataSourceName>
+            <Query>
+                <CommandText>
+                    SELECT InvoiceNumber, InvoiceDate, CustomerName, TotalAmount
+                    FROM Invoices
+                    WHERE SaleID = @SaleID
+                </CommandText>
+                <QueryParameters>
+                    <QueryParameter Name="SaleID">
+                        <Value>=Parameters!SaleID.Value</Value>
+                    </QueryParameter>
+                </QueryParameters>
+            </Query>
+            <Fields>
+                <Field Name="InvoiceNumber">
+                    <DataField>InvoiceNumber</DataField>
+                    <TypeName>System.String</TypeName>
+                </Field>
+                <Field Name="InvoiceDate">
+                    <DataField>InvoiceDate</DataField>
+                    <TypeName>System.DateTime</TypeName>
+                </Field>
+                <Field Name="CustomerName">
+                    <DataField>CustomerName</DataField>
+                    <TypeName>System.String</TypeName>
+                </Field>
+                <Field Name="TotalAmount">
+                    <DataField>TotalAmount</DataField>
+                    <TypeName>System.Decimal</TypeName>
+                </Field>
+            </Fields>
+        </DataSet>
+    </DataSets>
+    <ReportSections>
+        <ReportSection>
+            <Body>
+                <ReportItems>
+                    <Textbox Name="ReportTitle">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                            <Paragraph>
+                                <TextRuns>
+                                    <TextRun>
+                                        <Value>Invoice Report</Value>
+                                        <Style>
+                                            <FontFamily>Segoe UI Light</FontFamily>
+                                            <FontSize>28pt</FontSize>
+                                        </Style>
+                                    </TextRun>
+                                </TextRuns>
+                                <Style>
+                                    <TextAlign>Center</TextAlign>
+                                </Style>
+                            </Paragraph>
+                        </Paragraphs>
+                        <rd:WatermarkTextbox>Title</rd:WatermarkTextbox>
+                        <rd:DefaultName>ReportTitle</rd:DefaultName>
+                        <Height>0.75in</Height>
+                        <Width>8.5in</Width>
+                        <Style>
+                            <Border>
+                                <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                    </Textbox>
+                    <Table Name="InvoiceTable">
+                        <DataSetName>DataSet1</DataSetName>
+                        <Body>
+                            <ReportItems>
+                                <TableColumn>
+                                    <Width>2in</Width>
+                                </TableColumn>
+                                <TableColumn>
+                                    <Width>2in</Width>
+                                </TableColumn>
+                                <TableColumn>
+                                    <Width>2in</Width>
+                                </TableColumn>
+                                <TableColumn>
+                                    <Width>2in</Width>
+                                </TableColumn>
+                                <TableRow>
+                                    <Height>0.5in</Height>
+                                    <ReportItems>
+                                        <Textbox Name="InvoiceNumberTextBox">
+                                            <Value>=Fields!InvoiceNumber.Value</Value>
+                                            <Style>
+                                                <FontFamily>Segoe UI</FontFamily>
+                                                <FontSize>10pt</FontSize>
+                                            </Style>
+                                        </Textbox>
+                                        <Textbox Name="InvoiceDateTextBox">
+                                            <Value>=Fields!InvoiceDate.Value</Value>
+                                            <Style>
+                                                <FontFamily>Segoe UI</FontFamily>
+                                                <FontSize>10pt</FontSize>
+                                            </Style>
+                                        </Textbox>
+                                        <Textbox Name="CustomerNameTextBox">
+                                            <Value>=Fields!CustomerName.Value</Value>
+                                            <Style>
+                                                <FontFamily>Segoe UI</FontFamily>
+                                                <FontSize>10pt</FontSize>
+                                            </Style>
+                                        </Textbox>
+                                        <Textbox Name="TotalAmountTextBox">
+                                            <Value>=Fields!TotalAmount.Value</Value>
+                                            <Style>
+                                                <FontFamily>Segoe UI</FontFamily>
+                                                <FontSize>10pt</FontSize>
+                                            </Style>
+                                        </Textbox>
+                                    </ReportItems>
+                                </TableRow>
+                            </ReportItems>
+                        </Body>
+                        <Header>
+                            <TableRow>
+                                <ReportItems>
+                                    <Textbox Name="HeaderInvoiceNumber">
+                                        <Value>Invoice Number</Value>
+                                        <Style>
+                                            <FontFamily>Segoe UI</FontFamily>
+                                            <FontSize>10pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                        </Style>
+                                    </Textbox>
+                                    <Textbox Name="HeaderInvoiceDate">
+                                        <Value>Invoice Date</Value>
+                                        <Style>
+                                            <FontFamily>Segoe UI</FontFamily>
+                                            <FontSize>10pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                        </Style>
+                                    </Textbox>
+                                    <Textbox Name="HeaderCustomerName">
+                                        <Value>Customer Name</Value>
+                                        <Style>
+                                            <FontFamily>Segoe UI</FontFamily>
+                                            <FontSize>10pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                        </Style>
+                                    </Textbox>
+                                    <Textbox Name="HeaderTotalAmount">
+                                        <Value>Total Amount</Value>
+                                        <Style>
+                                            <FontFamily>Segoe UI</FontFamily>
+                                            <FontSize>10pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                        </Style>
+                                    </Textbox>
+                                </ReportItems>
+                            </TableRow>
+                        </Header>
+                    </Table>
+                </ReportItems>
+                <Height>5.5in</Height>
+                <Style>
+                    <Border>
+                        <Style>None</Style>
+                    </Border>
+                </Style>
+            </Body>
+            <Page>
+                <PageFooter>
+                    <Height>0.5in</Height>
+                    <PrintOnFirstPage>true</PrintOnFirstPage>
+                    <PrintOnLastPage>true</PrintOnLastPage>
+                    <ReportItems>
+                        <Textbox Name="ExecutionTime">
+                            <Value>=Globals!ExecutionTime</Value>
+                            <Style>
+                                <TextAlign>Right</TextAlign>
+                                <FontFamily>Segoe UI</FontFamily>
+                                <FontSize>8pt</FontSize>
+                            </Style>
+                        </Textbox>
+                    </ReportItems>
+                </PageFooter>
+                <LeftMargin>1in</LeftMargin>
+                <RightMargin>1in</RightMargin>
+                <TopMargin>1in</TopMargin>
+                <BottomMargin>1in</BottomMargin>
+            </Page>
+        </ReportSection>
+    </ReportSections>
+    <ReportParameters>
+        <ReportParameter Name="SaleID">
+            <DataType>Integer</DataType>
+            <Prompt>Sale ID</Prompt>
+            <AllowBlank>true</AllowBlank>
+        </ReportParameter>
+    </ReportParameters>
+    <rd:ReportUnitType>Inch</rd:ReportUnitType>
+    <rd:ReportID>78b8eb6f-6ea9-4382-9e3e-89ca8353e795</rd:ReportID>
+</Report>

@@ -1,0 +1,101 @@
+﻿@model ProductSellingApp.Models.Sale
+
+@{
+    ViewBag.Title = "Print Invoice";
+}
+
+<h2>Invoice</h2>
+
+<!-- Check if Sale model is not null -->
+@if (Model != null)
+{
+    <div class="invoice">
+        <h3>Invoice Details</h3>
+
+        <!-- Sale Details -->
+        <div class="form-group">
+            <label>Invoice ID</label>
+            <p>@Model.Id</p>
+        </div>
+
+        <div class="form-group">
+            <label>Sale Date</label>
+            <p>@Model.SaleDate.ToString("MM/dd/yyyy")</p>
+        </div>
+
+        <!-- Product Details -->
+        @if (Model.Product != null)
+        {
+            <h4>Product Details</h4>
+            <div class="form-group">
+                <label>Product Name</label>
+                <p>@Model.Product.Name</p>
+            </div>
+
+            <div class="form-group">
+                <label>Price Per Unit</label>
+                <p>@Model.Product.PricePerUnit.ToString("0.##") ৳</p>
+            </div>
+        }
+        else
+        {
+            <p>Product details are not available.</p>
+        }
+
+        <!-- Customer Details -->
+        @if (Model.Customer != null)
+        {
+            <h4>Customer Details</h4>
+            <div class="form-group">
+                <label>Customer Name</label>
+                <p>@Model.Customer.Name</p>
+            </div>
+
+            <div class="form-group">
+                <label>Customer Email</label>
+                <p>@Model.Customer.Email</p>
+            </div>
+        }
+        else
+        {
+            <p>Customer details are not available.</p>
+        }
+
+        <!-- Sale Summary -->
+        <h4>Sale Summary</h4>
+        <div class="form-group">
+            <label>Quantity Sold</label>
+            <p>@Model.Quantity</p>
+        </div>
+
+        <div class="form-group">
+            <label>Total Amount</label>
+            <p>@Model.TotalAmount.ToString("0.##") ৳</p>
+        </div>
+    </div>
+    <!-- Print Button -->
+    <a href="@Url.Action("PrintReport", "Report", new { id = Model.Id })" class="btn btn-primary" target="_blank">Print</a>
+}
+else
+{
+    <p>Invoice details are not available.</p>
+}
+
+<!-- Add styling for better presentation -->
+<style>
+    .invoice {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>

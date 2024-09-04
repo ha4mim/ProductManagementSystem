@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ProductSellingApp.Models.Product>
+
+@{
+    ViewBag.Title = "Product List";
+}
+
+<h2>Product List</h2>
+
+<a asp-action="Create" class="btn btn-primary">Add Product</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Price Per Unit</th>
+            <th>Photo</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Category.Name</td>
+                <td>@product.Quantity</td>
+                <td>@product.PricePerUnit.ToString("0.##") ৳</td>
+                <td>
+                    @if (product.Photo != null)
+                    {
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(product.Photo)" style="width:150px; height:100px;" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                    <a asp-action="Sell" asp-route-id="@product.Id" class="btn btn-success">Sell</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

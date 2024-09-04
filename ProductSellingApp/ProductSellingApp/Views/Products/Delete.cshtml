@@ -1,0 +1,27 @@
+﻿@model ProductSellingApp.Models.Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h2>Delete Product</h2>
+
+<div>
+    <h4>Are you sure you want to delete this item?</h4>
+    <div>
+        <h4>@Model.Name</h4>
+        <p>Category: @Model.Category.Name</p>
+        <p>Quantity: @Model.Quantity</p>
+        <p>Price Per Unit: @Model.PricePerUnit.ToString("0.##") ৳</p>
+        @if (Model.Photo != null)
+        {
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Photo)" style="width:150px; height:100px;" />
+        }
+    </div>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

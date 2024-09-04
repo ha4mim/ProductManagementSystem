@@ -1,0 +1,744 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ProductManagementSystem\\ProductSellingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\products\\printinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\products\\printinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\products\\sellproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\products\\sellproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\reports\\invoicereport.rdlc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\reports\\invoicereport.rdlc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\productsellingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\productsellingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\products\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\products\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\wwwroot\\js\\sellproduct.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\wwwroot\\js\\sellproduct.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\saleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\saleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|f:\\productmanagementsystem\\productsellingapp\\productsellingapp\\migrations\\20240903131246_reser password model update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5482426B-B497-4080-AAC6-30392F201772}|ProductSellingApp\\ProductSellingApp.csproj|solutionrelative:productsellingapp\\migrations\\20240903131246_reser password model update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductSellingApp\\appsettings.json",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\appsettings.json",
+              "RelativeToolTip": "ProductSellingApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T12:25:45.865Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProductSellingApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAYwOoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:48:57.805Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductSellingApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAwwBEBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:29:44.673Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:59:54.845Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAGBnwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:01:16.033Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\Product.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Product.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:28:28.583Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Controllers\\CustomersController.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "ProductSellingApp\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAmwEYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:11:31.728Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrintInvoice.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\PrintInvoice.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Products\\PrintInvoice.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\PrintInvoice.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Products\\PrintInvoice.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T03:01:48.583Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Controllers\\ReportController.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "ProductSellingApp\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:50:09.384Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\ProductViewModel.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:04:26.594Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T01:49:53.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\Sale.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Sale.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:54:36.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Products\\ProductList.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\ProductList.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Products\\ProductList.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T15:20:03.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "sellProduct.js",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\wwwroot\\js\\sellProduct.js",
+              "RelativeDocumentMoniker": "ProductSellingApp\\wwwroot\\js\\sellProduct.js",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\wwwroot\\js\\sellProduct.js",
+              "RelativeToolTip": "ProductSellingApp\\wwwroot\\js\\sellProduct.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA2wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-04T03:02:46.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T15:51:31.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T01:50:40.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\User.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\User.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:37:09.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SellProduct.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\SellProduct.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Products\\SellProduct.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\SellProduct.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Products\\SellProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T02:55:37.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductSellingApp.csproj",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\ProductSellingApp.csproj",
+              "RelativeDocumentMoniker": "ProductSellingApp\\ProductSellingApp.csproj",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\ProductSellingApp.csproj",
+              "RelativeToolTip": "ProductSellingApp\\ProductSellingApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T05:46:21.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvoiceReport.rdlc",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Reports\\InvoiceReport.rdlc",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Reports\\InvoiceReport.rdlc",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Reports\\InvoiceReport.rdlc",
+              "RelativeToolTip": "ProductSellingApp\\Reports\\InvoiceReport.rdlc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-09-04T08:23:44.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Products\\AddProduct.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Products\\AddProduct.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Products\\AddProduct.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T15:20:53.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProductSellingApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:33:13.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\Customer.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Customer.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:10:50.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T16:07:42.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SaleViewModel.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\SaleViewModel.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\SaleViewModel.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\SaleViewModel.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\SaleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:04:07.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T16:08:33.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Customers\\Edit.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T02:13:40.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Customers\\Delete.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Delete.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Customers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T02:14:08.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T02:13:18.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T02:12:49.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Models\\Category.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Models\\Category.cs",
+              "RelativeToolTip": "ProductSellingApp\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:29:03.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Program.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Program.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Program.cs",
+              "RelativeToolTip": "ProductSellingApp\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:49:36.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T16:08:37.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T16:07:29.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T15:42:17.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T15:42:22.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "product.js",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\wwwroot\\js\\product.js",
+              "RelativeDocumentMoniker": "ProductSellingApp\\wwwroot\\js\\product.js",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\wwwroot\\js\\product.js",
+              "RelativeToolTip": "ProductSellingApp\\wwwroot\\js\\product.js",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-03T15:22:42.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Data\\UserDbContext.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "ProductSellingApp\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:33:14.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T12:47:15.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:06:20.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "ProductSellingApp\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:00:45.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240903131246_Reser Password model update.cs",
+              "DocumentMoniker": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Migrations\\20240903131246_Reser Password model update.cs",
+              "RelativeDocumentMoniker": "ProductSellingApp\\Migrations\\20240903131246_Reser Password model update.cs",
+              "ToolTip": "F:\\ProductManagementSystem\\ProductSellingApp\\ProductSellingApp\\Migrations\\20240903131246_Reser Password model update.cs",
+              "RelativeToolTip": "ProductSellingApp\\Migrations\\20240903131246_Reser Password model update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:12:47.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
